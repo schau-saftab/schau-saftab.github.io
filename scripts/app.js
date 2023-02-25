@@ -613,7 +613,8 @@ class User {
             }else{
                 let newUser = new User(firstName, lastName, null, email, password);
                 console.log(newUser);
-                location.href = "register.html";
+                $("#registerForm")[0].reset();
+
             }
 
         });

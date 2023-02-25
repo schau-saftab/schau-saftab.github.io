@@ -280,7 +280,7 @@ class User {
 
         const box3Services = document.createElement("div");
         box3Services.id = "box3";
-            box3Services.style.alignItems = "center";
+        box3Services.style.alignItems = "center";
         box3Services.style.gridTemplateColumns = "1fr 1fr 1fr";
         box3Services.style.display = "grid";
         box3Services.style.columnGap = "5px";

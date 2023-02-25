@@ -547,13 +547,10 @@ class User {
         let userJSON = sessionStorage.getItem("user");
         if(userJSON)
         {
-            console.log(userJSON);
             let newUser = new core.User();
-            console.log("HelloWorld");
             newUser.deserialize(userJSON);
 
             let username = newUser.Username;
-            console.log("Username:", username);
 
             let contactUsLink = $("#navbarSupportedContent .nav-item:last-child");
             let loginLink = $("#login");

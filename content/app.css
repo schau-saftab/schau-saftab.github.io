@@ -11,7 +11,7 @@
     line-height: 1;
     text-align: center;
     border: 1px solid darkgrey;
-    border-radius: 4xpx;
+    border-radius: 4xpx; 
 }
 
 .input-group-addon .fa
@@ -24,7 +24,6 @@
     position:relative;
     z-index: 2;
     float:left;
-    width: 100%;
     margin-bottom: 0;
 }
 
@@ -33,8 +32,6 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-
-
 
 .login
 {
@@ -50,4 +47,11 @@
     border-color: darkgrey;
     border-radius: .4em;
     width: 100%;
+}
+
+.edit-task
+{
+    position: relative;
+    top: -31px;
+    display: none;
 }
